@@ -11,3 +11,9 @@ Construindo um ecossistema com arquitetura baseada em microsserviços usando spr
 - Responsabilidades mais definidas
 - 'Pedaços' do software independentes
 - Camada UI (interface) atua como monolito
+
+## 🛠️ Tecnologias utilizadas
+
+- JAVA
+- Spring Cloud
+- Gradle
