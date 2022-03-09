@@ -6,8 +6,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.convert.support.DefaultConversionService;
 import org.springframework.data.elasticsearch.client.ClientConfiguration;
 import org.springframework.data.elasticsearch.client.RestClients;
-import org.springframework.data.elasticsearch.core.*;
 import org.springframework.data.elasticsearch.config.AbstractElasticsearchConfiguration;
+import org.springframework.data.elasticsearch.core.ElasticsearchEntityMapper;
+import org.springframework.data.elasticsearch.core.EntityMapper;
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 @Configuration
@@ -25,10 +26,9 @@ public class ElasticSearchConfig extends AbstractElasticsearchConfiguration {
 	@Bean
 	@Override
 	public EntityMapper entityMapper() {
-		ElasticsearchEntity entityMapper = new ElasticsearchEntityMapper(elasticsearchMappingContext(),
+		ElasticsearchEntityMapper entityMapper = new ElasticsearchEntityMapper(elasticsearchMappingContext(),
 			new DefaultConversionService());
-		entityMapper.setConversion(elasticsearchCustomConversions());
-
+		entityMapper.setConversions(elasticsearchCustomConversions());
 		return entityMapper;
 	}
 
