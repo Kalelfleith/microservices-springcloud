@@ -20,8 +20,6 @@ Construindo um ecossistema com arquitetura baseada em microsserviços usando spr
 - API REST
 - Gradle
 
-### Spring Cloud
+### microsserviços - 1 Product-Catalog
 
-Spring Cloud fornece ferramentas para desenvolvedores para construir rapidamente alguns dos padrões comuns em sistemas distribuídos (por exemplo, gerenciamento de configuração, descoberta de serviço, disjuntores, roteamento inteligente, micro-proxy, barramento de controle, tokens de uso único, bloqueios globais, eleição de liderança, distribuição sessões, estado do cluster). 
-
-A coordenação de sistemas distribuídos leva a padrões de placa de caldeira e, usando o Spring Cloud, os desenvolvedores podem criar rapidamente serviços e aplicativos que implementam esses padrões.
+> Consome os dados do Elasticsearch
