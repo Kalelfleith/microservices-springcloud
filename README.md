@@ -20,6 +20,6 @@ Construindo um ecossistema com arquitetura baseada em microsserviços usando spr
 - API REST
 - Gradle
 
-### microsserviços - 1 Product-Catalog
+### microsserviços 1 - Product-Catalog
 
 > Consome os dados do Elasticsearch
