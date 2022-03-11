@@ -11,6 +11,9 @@ import org.springframework.data.elasticsearch.core.ElasticsearchEntityMapper;
 import org.springframework.data.elasticsearch.core.EntityMapper;
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
+/**
+ * Classe config diz como o Spring se conecta com o datasource.
+ */
 @Configuration
 @EnableElasticsearchRepositories(basePackages = "one.digitalinovationone.experts.productcatalog.repository")
 public class ElasticSearchConfig extends AbstractElasticsearchConfiguration {
