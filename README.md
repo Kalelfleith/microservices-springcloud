@@ -17,6 +17,7 @@ Construindo um ecossistema com arquitetura baseada em microsserviços usando spr
 - JAVA
 - Spring Cloud
 - Spring Data Elasticsearch
+- Spring Data Redis
 - API REST
 - Gradle
 
