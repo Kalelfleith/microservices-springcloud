@@ -22,4 +22,8 @@ Construindo um ecossistema com arquitetura baseada em microsserviços usando spr
 
 ### microsserviços 1 - Product-Catalog
 
-> Consome os dados do Elasticsearch
+> Consome os dados do Elasticsearch.
+
+### Config Server (Spring Cloud Config)
+
+> Gerenciar as configurações do microsserviços. 
