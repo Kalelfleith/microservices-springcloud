@@ -6,7 +6,7 @@ plugins {
 
 group = 'one.digitalinnovation.experts'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '17'
+sourceCompatibility = '14'
 
 repositories {
 	mavenCentral()
