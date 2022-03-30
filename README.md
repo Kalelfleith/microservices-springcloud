@@ -26,4 +26,4 @@ Construindo um ecossistema com arquitetura baseada em microsserviços usando spr
 
 ### Config Server (Spring Cloud Config)
 
-> Gerenciar as configurações do microsserviços. 
+> Gerenciar as configurações dos microsserviços. 
