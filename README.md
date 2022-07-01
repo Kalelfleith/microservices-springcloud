@@ -4,6 +4,8 @@
 
 Construindo um ecossistema com arquitetura baseada em microsserviços usando spring cloud.
 
+> Spring Framework (Spring Boot) pode ser considerado um plugin para ferramenta de building, como <strong>Maven</strong> (pom.xml) ou <strong>Gradle</strong> (build.gradle)
+
 ## Arquitetura padrão X Arquitetura de micro-serviços
 <img src=".github/fluxo-mocroservices.png" alt="img-microservice"/>
 
